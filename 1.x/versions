@@ -1,0 +1,9 @@
+dewi_commands_version=v2.1.1
+dewi_core_version=v4.0.0
+dewi_logparsers_version=v2.0.2
+dewi_module_framework_version=v2.0.1
+dewi_realtime_sync_version=v2.0.0
+dewi_utils_version=v2.5.0
+dewi_version=v2.2.0
+
+DEWI_DOCKER_TAG=1.0.0

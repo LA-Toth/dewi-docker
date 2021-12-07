@@ -1,0 +1,9 @@
+dewi_commands_version=master
+dewi_core_version=master
+dewi_logparsers_version=master
+dewi_module_framework_version=master
+dewi_realtime_sync_version=master
+dewi_utils_version=master
+dewi_version=master
+
+DEWI_DOCKER_TAG=latest
