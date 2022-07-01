@@ -1,9 +1,9 @@
-dewi_core_version=v5.1.1
+dewi_core_version=v5.2.0
 dewi_utils_version=v3.0.0
 dewi_logparsers_version=v2.0.2
 dewi_module_framework_version=v2.0.1
-dewi_realtime_sync_version=v2.0.0
-dewi_commands_version=v3.0.0
+dewi_realtime_sync_version=v2.1.0
+dewi_commands_version=v3.0.1
 dewi_version=v2.3.0
 
-DEWI_DOCKER_TAG=3.1.1
+DEWI_DOCKER_TAG=3.2.0
