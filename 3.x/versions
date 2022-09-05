@@ -6,4 +6,4 @@ dewi_realtime_sync_version=v2.1.0
 dewi_commands_version=v3.0.1
 dewi_version=v2.3.0
 
-DEWI_DOCKER_TAG=3.2.0
+DEWI_DOCKER_TAG=143.2.0

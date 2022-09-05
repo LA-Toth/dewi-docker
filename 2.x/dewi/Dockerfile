@@ -1,4 +1,4 @@
-FROM python:3.10.5-slim-bullseye
+FROM python:3.9.9-slim-bullseye
 
 ARG DEWI_COMMANDS_VERSION
 ARG DEWI_CORE_VERSION
@@ -10,8 +10,6 @@ ARG DEWI_VERSION
 
 SHELL ["/bin/bash", "-c"]
 
-# explicit 'pip install' is needed because without it the ./setup.py install
-# tries to build the _same_ packages from source
 RUN set -eEu && \
     mkdir /opt/dewi && \
     cd /opt/dewi && \
@@ -22,7 +20,6 @@ RUN set -eEu && \
     apt autoremove --purge --yes && \
     apt clean --yes && \
     rm -r /var/lib/apt/lists/* && \
-    pip install lxml greenlet cffi && \
     mkdir -p /opt/dewi-state && \
     for d in dewi_core \
              dewi_logparsers \
